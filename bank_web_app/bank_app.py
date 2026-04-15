@@ -7,7 +7,7 @@ from render_css import *
 from bank_app_logic import *
 from PIL import Image
 
-favicon = Image.open("static/eryx-favicon.png")
+favicon = Image.open("bank_web_app/static/eryx-favicon.png")
 
 # App Name
 st.set_page_config(
@@ -103,7 +103,7 @@ st.write(f"**{progress_text}**")
 # home view
 if st.session_state.step == 1:   
     # load img
-    static_folder_path = "static"
+    static_folder_path = "bank_web_app/static"
     hero_image_name = "bank_deposit.webp"
 
     # locate the hero image
