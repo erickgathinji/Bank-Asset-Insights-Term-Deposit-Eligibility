@@ -738,7 +738,7 @@ elif st.session_state.step == 6:
         # Change this line:
         st.caption(f"***Only the first 1000 rows will be processed. Ensure the .csv dataset has these 16 features: {', '.join(feature_keys)}.***")      
         
-        csv_path = os.path.join("sample_input_data", "sample_input_data.csv")
+        csv_path = os.path.join("web_app/sample_input_data", "sample_input_data.csv")
         
         
         # 2. Check if file exists and provide download button
