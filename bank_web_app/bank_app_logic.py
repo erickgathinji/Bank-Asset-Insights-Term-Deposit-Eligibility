@@ -13,8 +13,10 @@ import pickle
 import joblib
 
 # load model
-model_columns = joblib.load('pickles/model_columns.pkl')
-back_asset_insights_model = joblib.load('pickles/back_asset_insights_model.pkl')
+# model_columns = joblib.load('pickles/model_columns.pkl')
+model_columns = joblib.load('bank_web_app/pickles/model_columns.pkl')
+back_asset_insights_model = joblib.load('bank_web_app/pickles/back_asset_insights_model.pkl')
+# back_asset_insights_model = joblib.load('pickles/back_asset_insights_model.pkl')
 
 def render_single_prediction_logic(df):          
     # feature engineering
