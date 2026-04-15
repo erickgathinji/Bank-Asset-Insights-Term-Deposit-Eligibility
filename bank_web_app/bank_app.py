@@ -20,7 +20,7 @@ apply_css()
 
 # configure link
 if "model" not in st.query_params:
-    st.query_params["model"] = "bank-asset-insights-term-deposit-eligibility"
+    st.query_params["model"] = "bank-asset-insights"
 
 # Session State for Navigation
 if "step" not in st.session_state:
