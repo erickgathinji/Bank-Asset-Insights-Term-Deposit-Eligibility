@@ -586,7 +586,7 @@ elif st.session_state.step == 4:
         )
 
         input_c.number_input(
-            "Day of Month", 1, 80, 
+            "Number of contacts", 1, 80, 
             value=st.session_state.val_campaign, 
             placeholder="Enter...", 
             key="campaign", 
